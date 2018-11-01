@@ -1,3 +1,4 @@
+libell.so.0:ELL_0.10
 libell.so.0:l_aead_cipher_decrypt
 libell.so.0:l_aead_cipher_encrypt
 libell.so.0:l_aead_cipher_free
