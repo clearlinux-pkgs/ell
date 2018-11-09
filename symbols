@@ -166,7 +166,6 @@ libell.so.0:l_genl_new_default
 libell.so.0:l_genl_ref
 libell.so.0:l_genl_set_close_on_unref
 libell.so.0:l_genl_set_debug
-libell.so.0:l_genl_set_unicast_handler
 libell.so.0:l_genl_unref
 libell.so.0:l_getrandom
 libell.so.0:l_getrandom_is_supported
@@ -366,6 +365,7 @@ libell.so.0:l_tls_new
 libell.so.0:l_tls_prf_get_bytes
 libell.so.0:l_tls_set_auth_data
 libell.so.0:l_tls_set_cacert
+libell.so.0:l_tls_set_debug
 libell.so.0:l_tls_write
 libell.so.0:l_uintset_contains
 libell.so.0:l_uintset_find_max
