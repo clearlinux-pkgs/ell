@@ -147,6 +147,7 @@ libell.so.0:l_genl_family_new
 libell.so.0:l_genl_family_ref
 libell.so.0:l_genl_family_register
 libell.so.0:l_genl_family_send
+libell.so.0:l_genl_family_set_unicast_handler
 libell.so.0:l_genl_family_set_watches
 libell.so.0:l_genl_family_unref
 libell.so.0:l_genl_family_unregister
