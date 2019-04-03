@@ -20,6 +20,7 @@ libell.so.0:l_certchain_walk_from_ca
 libell.so.0:l_certchain_walk_from_leaf
 libell.so.0:l_checksum_clone
 libell.so.0:l_checksum_cmac_aes_supported
+libell.so.0:l_checksum_digest_length
 libell.so.0:l_checksum_free
 libell.so.0:l_checksum_get_digest
 libell.so.0:l_checksum_get_string
@@ -144,8 +145,14 @@ libell.so.0:l_dhcp_lease_get_t2
 libell.so.0:l_dir_watch_destroy
 libell.so.0:l_dir_watch_new
 libell.so.0:l_ecc_curve_get
+libell.so.0:l_ecc_curve_get_ike_group
+libell.so.0:l_ecc_curve_get_name
 libell.so.0:l_ecc_curve_get_order
 libell.so.0:l_ecc_curve_get_prime
+libell.so.0:l_ecc_curve_get_scalar_bytes
+libell.so.0:l_ecc_curve_get_supported_ike_groups
+libell.so.0:l_ecc_curve_get_supported_tls_groups
+libell.so.0:l_ecc_curve_get_tls_group
 libell.so.0:l_ecc_point_add
 libell.so.0:l_ecc_point_free
 libell.so.0:l_ecc_point_from_data
@@ -393,6 +400,7 @@ libell.so.0:l_strv_length
 libell.so.0:l_test_add
 libell.so.0:l_test_init
 libell.so.0:l_test_run
+libell.so.0:l_time_now
 libell.so.0:l_timeout_create
 libell.so.0:l_timeout_create_ms
 libell.so.0:l_timeout_modify
@@ -407,6 +415,7 @@ libell.so.0:l_tls_prf_get_bytes
 libell.so.0:l_tls_set_auth_data
 libell.so.0:l_tls_set_cacert
 libell.so.0:l_tls_set_debug
+libell.so.0:l_tls_set_version_range
 libell.so.0:l_tls_start
 libell.so.0:l_tls_write
 libell.so.0:l_uintset_contains
@@ -414,9 +423,11 @@ libell.so.0:l_uintset_find_max
 libell.so.0:l_uintset_find_min
 libell.so.0:l_uintset_find_unused
 libell.so.0:l_uintset_find_unused_min
+libell.so.0:l_uintset_foreach
 libell.so.0:l_uintset_free
 libell.so.0:l_uintset_get_max
 libell.so.0:l_uintset_get_min
+libell.so.0:l_uintset_intersect
 libell.so.0:l_uintset_new
 libell.so.0:l_uintset_new_from_range
 libell.so.0:l_uintset_put
@@ -437,6 +448,7 @@ libell.so.0:l_util_hexdump_two
 libell.so.0:l_util_hexdumpv
 libell.so.0:l_util_hexstring
 libell.so.0:l_util_hexstring_upper
+libell.so.0:l_uuid_from_string
 libell.so.0:l_uuid_get_version
 libell.so.0:l_uuid_is_valid
 libell.so.0:l_uuid_to_string
