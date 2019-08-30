@@ -100,6 +100,7 @@ libell.so.0:l_dbus_name_acquire
 libell.so.0:l_dbus_new
 libell.so.0:l_dbus_new_default
 libell.so.0:l_dbus_object_add_interface
+libell.so.0:l_dbus_object_get_data
 libell.so.0:l_dbus_object_manager_enable
 libell.so.0:l_dbus_object_remove_interface
 libell.so.0:l_dbus_property_changed
@@ -319,6 +320,10 @@ libell.so.0:l_netlink_send
 libell.so.0:l_netlink_set_debug
 libell.so.0:l_netlink_unregister
 libell.so.0:l_parse_args
+libell.so.0:l_path_find
+libell.so.0:l_path_get_mtime
+libell.so.0:l_path_next
+libell.so.0:l_path_touch
 libell.so.0:l_pem_load_buffer
 libell.so.0:l_pem_load_certificate_chain
 libell.so.0:l_pem_load_certificate_list
@@ -420,6 +425,7 @@ libell.so.0:l_strv_append
 libell.so.0:l_strv_append_printf
 libell.so.0:l_strv_append_vprintf
 libell.so.0:l_strv_contains
+libell.so.0:l_strv_copy
 libell.so.0:l_strv_free
 libell.so.0:l_strv_length
 libell.so.0:l_strv_new
@@ -442,6 +448,7 @@ libell.so.0:l_tls_prf_get_bytes
 libell.so.0:l_tls_set_auth_data
 libell.so.0:l_tls_set_cacert
 libell.so.0:l_tls_set_debug
+libell.so.0:l_tls_set_domain_mask
 libell.so.0:l_tls_set_version_range
 libell.so.0:l_tls_start
 libell.so.0:l_tls_write
