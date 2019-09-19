@@ -462,6 +462,7 @@ libell.so.0:l_uintset_free
 libell.so.0:l_uintset_get_max
 libell.so.0:l_uintset_get_min
 libell.so.0:l_uintset_intersect
+libell.so.0:l_uintset_isempty
 libell.so.0:l_uintset_new
 libell.so.0:l_uintset_new_from_range
 libell.so.0:l_uintset_put
@@ -487,4 +488,5 @@ libell.so.0:l_uuid_get_version
 libell.so.0:l_uuid_is_valid
 libell.so.0:l_uuid_to_string
 libell.so.0:l_uuid_v3
+libell.so.0:l_uuid_v4
 libell.so.0:l_uuid_v5
