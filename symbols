@@ -326,9 +326,12 @@ libell.so.0:l_path_next
 libell.so.0:l_path_touch
 libell.so.0:l_pem_load_buffer
 libell.so.0:l_pem_load_certificate_chain
+libell.so.0:l_pem_load_certificate_chain_from_data
 libell.so.0:l_pem_load_certificate_list
+libell.so.0:l_pem_load_certificate_list_from_data
 libell.so.0:l_pem_load_file
 libell.so.0:l_pem_load_private_key
+libell.so.0:l_pem_load_private_key_from_data
 libell.so.0:l_pkcs5_pbkdf1
 libell.so.0:l_pkcs5_pbkdf2
 libell.so.0:l_plugin_add
@@ -368,6 +371,8 @@ libell.so.0:l_ringbuf_write
 libell.so.0:l_settings_free
 libell.so.0:l_settings_get_bool
 libell.so.0:l_settings_get_double
+libell.so.0:l_settings_get_embedded_groups
+libell.so.0:l_settings_get_embedded_value
 libell.so.0:l_settings_get_float
 libell.so.0:l_settings_get_groups
 libell.so.0:l_settings_get_int
@@ -378,6 +383,7 @@ libell.so.0:l_settings_get_string_list
 libell.so.0:l_settings_get_uint
 libell.so.0:l_settings_get_uint64
 libell.so.0:l_settings_get_value
+libell.so.0:l_settings_has_embedded_group
 libell.so.0:l_settings_has_group
 libell.so.0:l_settings_has_key
 libell.so.0:l_settings_load_from_data
