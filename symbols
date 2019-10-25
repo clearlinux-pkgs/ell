@@ -12,7 +12,6 @@ libell.so.0:l_cert_get_dn
 libell.so.0:l_cert_get_pubkey
 libell.so.0:l_cert_get_pubkey_type
 libell.so.0:l_cert_new_from_der
-libell.so.0:l_certchain_find
 libell.so.0:l_certchain_free
 libell.so.0:l_certchain_get_leaf
 libell.so.0:l_certchain_verify
