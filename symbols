@@ -138,6 +138,7 @@ libell.so.0:l_dhcp_client_stop
 libell.so.0:l_dhcp_lease_get_address
 libell.so.0:l_dhcp_lease_get_broadcast
 libell.so.0:l_dhcp_lease_get_dns
+libell.so.0:l_dhcp_lease_get_domain_name
 libell.so.0:l_dhcp_lease_get_gateway
 libell.so.0:l_dhcp_lease_get_lifetime
 libell.so.0:l_dhcp_lease_get_netmask
@@ -311,6 +312,8 @@ libell.so.0:l_malloc
 libell.so.0:l_memdup
 libell.so.0:l_net_get_mac_address
 libell.so.0:l_net_get_name
+libell.so.0:l_net_hostname_is_localhost
+libell.so.0:l_net_hostname_is_root
 libell.so.0:l_netlink_cancel
 libell.so.0:l_netlink_destroy
 libell.so.0:l_netlink_new
