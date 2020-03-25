@@ -208,8 +208,10 @@ libell.so.0:l_genl_msg_get_error
 libell.so.0:l_genl_msg_get_version
 libell.so.0:l_genl_msg_leave_nested
 libell.so.0:l_genl_msg_new
+libell.so.0:l_genl_msg_new_from_data
 libell.so.0:l_genl_msg_new_sized
 libell.so.0:l_genl_msg_ref
+libell.so.0:l_genl_msg_to_data
 libell.so.0:l_genl_msg_unref
 libell.so.0:l_genl_new
 libell.so.0:l_genl_ref
@@ -358,6 +360,7 @@ libell.so.0:l_queue_remove
 libell.so.0:l_queue_remove_if
 libell.so.0:l_queue_reverse
 libell.so.0:l_realloc
+libell.so.0:l_ringbuf_append
 libell.so.0:l_ringbuf_avail
 libell.so.0:l_ringbuf_capacity
 libell.so.0:l_ringbuf_drain
