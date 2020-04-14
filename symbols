@@ -205,6 +205,7 @@ libell.so.0:l_genl_msg_append_attrv
 libell.so.0:l_genl_msg_enter_nested
 libell.so.0:l_genl_msg_get_command
 libell.so.0:l_genl_msg_get_error
+libell.so.0:l_genl_msg_get_extended_error
 libell.so.0:l_genl_msg_get_version
 libell.so.0:l_genl_msg_leave_nested
 libell.so.0:l_genl_msg_new
