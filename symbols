@@ -124,6 +124,18 @@ libell.so.0:l_dbus_unregister_object
 libell.so.0:l_debug_add_section
 libell.so.0:l_debug_disable
 libell.so.0:l_debug_enable_full
+libell.so.0:l_dhcp6_client_add_request_option
+libell.so.0:l_dhcp6_client_destroy
+libell.so.0:l_dhcp6_client_get_lease
+libell.so.0:l_dhcp6_client_new
+libell.so.0:l_dhcp6_client_set_address
+libell.so.0:l_dhcp6_client_set_debug
+libell.so.0:l_dhcp6_client_set_event_handler
+libell.so.0:l_dhcp6_client_set_lla_randomized
+libell.so.0:l_dhcp6_client_set_nodelay
+libell.so.0:l_dhcp6_client_set_stateless
+libell.so.0:l_dhcp6_client_start
+libell.so.0:l_dhcp6_client_stop
 libell.so.0:l_dhcp_client_add_request_option
 libell.so.0:l_dhcp_client_destroy
 libell.so.0:l_dhcp_client_get_lease
@@ -247,6 +259,7 @@ libell.so.0:l_hashmap_isempty
 libell.so.0:l_hashmap_lookup
 libell.so.0:l_hashmap_new
 libell.so.0:l_hashmap_remove
+libell.so.0:l_hashmap_replace
 libell.so.0:l_hashmap_set_compare_function
 libell.so.0:l_hashmap_set_hash_function
 libell.so.0:l_hashmap_set_key_copy_function
@@ -483,6 +496,7 @@ libell.so.0:l_tls_set_domain_mask
 libell.so.0:l_tls_set_version_range
 libell.so.0:l_tls_start
 libell.so.0:l_tls_write
+libell.so.0:l_uintset_clone
 libell.so.0:l_uintset_contains
 libell.so.0:l_uintset_find_max
 libell.so.0:l_uintset_find_min
