@@ -1,4 +1,12 @@
 libell.so.0:ELL_0.10
+libell.so.0:l_acd_destroy
+libell.so.0:l_acd_new
+libell.so.0:l_acd_set_debug
+libell.so.0:l_acd_set_defend_policy
+libell.so.0:l_acd_set_event_handler
+libell.so.0:l_acd_set_skip_probes
+libell.so.0:l_acd_start
+libell.so.0:l_acd_stop
 libell.so.0:l_aead_cipher_decrypt
 libell.so.0:l_aead_cipher_encrypt
 libell.so.0:l_aead_cipher_free
@@ -566,6 +574,7 @@ libell.so.0:l_tls_new
 libell.so.0:l_tls_prf_get_bytes
 libell.so.0:l_tls_set_auth_data
 libell.so.0:l_tls_set_cacert
+libell.so.0:l_tls_set_cert_dump_path
 libell.so.0:l_tls_set_debug
 libell.so.0:l_tls_set_domain_mask
 libell.so.0:l_tls_set_version_range
