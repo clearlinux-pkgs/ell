@@ -19,7 +19,10 @@ libell.so.0:l_cert_get_der_data
 libell.so.0:l_cert_get_dn
 libell.so.0:l_cert_get_pubkey
 libell.so.0:l_cert_get_pubkey_type
+libell.so.0:l_cert_load_container_file
 libell.so.0:l_cert_new_from_der
+libell.so.0:l_cert_pkcs5_pbkdf1
+libell.so.0:l_cert_pkcs5_pbkdf2
 libell.so.0:l_certchain_free
 libell.so.0:l_certchain_get_leaf
 libell.so.0:l_certchain_verify
@@ -398,8 +401,6 @@ libell.so.0:l_pem_load_certificate_list_from_data
 libell.so.0:l_pem_load_file
 libell.so.0:l_pem_load_private_key
 libell.so.0:l_pem_load_private_key_from_data
-libell.so.0:l_pkcs5_pbkdf1
-libell.so.0:l_pkcs5_pbkdf2
 libell.so.0:l_queue_clear
 libell.so.0:l_queue_destroy
 libell.so.0:l_queue_find
