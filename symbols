@@ -488,6 +488,7 @@ libell.so.0:l_rtnl_route_set_scope
 libell.so.0:l_rtnl_set_linkmode_and_operstate
 libell.so.0:l_rtnl_set_mac
 libell.so.0:l_rtnl_set_powered
+libell.so.0:l_secure_memeq
 libell.so.0:l_settings_free
 libell.so.0:l_settings_get_bool
 libell.so.0:l_settings_get_bytes
