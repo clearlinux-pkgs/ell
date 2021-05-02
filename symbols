@@ -489,6 +489,7 @@ libell.so.0:l_rtnl_set_linkmode_and_operstate
 libell.so.0:l_rtnl_set_mac
 libell.so.0:l_rtnl_set_powered
 libell.so.0:l_secure_memeq
+libell.so.0:l_settings_add_group
 libell.so.0:l_settings_free
 libell.so.0:l_settings_get_bool
 libell.so.0:l_settings_get_bytes
@@ -561,8 +562,11 @@ libell.so.0:l_strv_new
 libell.so.0:l_test_add
 libell.so.0:l_test_init
 libell.so.0:l_test_run
+libell.so.0:l_tester_add
+libell.so.0:l_tester_add_full
 libell.so.0:l_tester_destroy
 libell.so.0:l_tester_get_data
+libell.so.0:l_tester_get_stage
 libell.so.0:l_tester_new
 libell.so.0:l_tester_post_teardown_complete
 libell.so.0:l_tester_post_teardown_failed
