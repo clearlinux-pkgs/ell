@@ -187,8 +187,10 @@ libell.so.0:l_dhcp_server_lease_remove
 libell.so.0:l_dhcp_server_new
 libell.so.0:l_dhcp_server_release
 libell.so.0:l_dhcp_server_request
+libell.so.0:l_dhcp_server_set_authoritative
 libell.so.0:l_dhcp_server_set_debug
 libell.so.0:l_dhcp_server_set_dns
+libell.so.0:l_dhcp_server_set_enable_rapid_commit
 libell.so.0:l_dhcp_server_set_event_handler
 libell.so.0:l_dhcp_server_set_gateway
 libell.so.0:l_dhcp_server_set_interface_name
