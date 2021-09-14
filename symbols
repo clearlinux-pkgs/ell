@@ -476,6 +476,8 @@ libell.so.0:l_rtnl_ifaddr6_extract
 libell.so.0:l_rtnl_ifaddr_add
 libell.so.0:l_rtnl_ifaddr_delete
 libell.so.0:l_rtnl_ifaddr_extract
+libell.so.0:l_rtnl_neighbor_get_hwaddr
+libell.so.0:l_rtnl_neighbor_set_hwaddr
 libell.so.0:l_rtnl_route4_add_connected
 libell.so.0:l_rtnl_route4_add_gateway
 libell.so.0:l_rtnl_route4_dump
