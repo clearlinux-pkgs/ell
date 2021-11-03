@@ -169,14 +169,19 @@ libell.so.0:l_dhcp_client_set_rtnl
 libell.so.0:l_dhcp_client_start
 libell.so.0:l_dhcp_client_stop
 libell.so.0:l_dhcp_lease_get_address
+libell.so.0:l_dhcp_lease_get_address_u32
 libell.so.0:l_dhcp_lease_get_broadcast
 libell.so.0:l_dhcp_lease_get_dns
 libell.so.0:l_dhcp_lease_get_domain_name
 libell.so.0:l_dhcp_lease_get_gateway
+libell.so.0:l_dhcp_lease_get_gateway_u32
 libell.so.0:l_dhcp_lease_get_lifetime
 libell.so.0:l_dhcp_lease_get_mac
 libell.so.0:l_dhcp_lease_get_netmask
+libell.so.0:l_dhcp_lease_get_netmask_u32
+libell.so.0:l_dhcp_lease_get_prefix_length
 libell.so.0:l_dhcp_lease_get_server_id
+libell.so.0:l_dhcp_lease_get_server_mac
 libell.so.0:l_dhcp_lease_get_t1
 libell.so.0:l_dhcp_lease_get_t2
 libell.so.0:l_dhcp_server_decline
@@ -579,6 +584,7 @@ libell.so.0:l_strv_append_printf
 libell.so.0:l_strv_append_vprintf
 libell.so.0:l_strv_contains
 libell.so.0:l_strv_copy
+libell.so.0:l_strv_eq
 libell.so.0:l_strv_free
 libell.so.0:l_strv_length
 libell.so.0:l_strv_new
