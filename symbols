@@ -266,6 +266,7 @@ libell.so.0:l_genl_family_info_get_version
 libell.so.0:l_genl_family_info_has_group
 libell.so.0:l_genl_family_new
 libell.so.0:l_genl_family_register
+libell.so.0:l_genl_family_request_sent
 libell.so.0:l_genl_family_send
 libell.so.0:l_genl_family_unregister
 libell.so.0:l_genl_msg_append_attr
@@ -647,6 +648,7 @@ libell.so.0:l_uintset_isempty
 libell.so.0:l_uintset_new
 libell.so.0:l_uintset_new_from_range
 libell.so.0:l_uintset_put
+libell.so.0:l_uintset_size
 libell.so.0:l_uintset_take
 libell.so.0:l_utf8_from_ucs2be
 libell.so.0:l_utf8_from_utf16
