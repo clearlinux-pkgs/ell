@@ -228,6 +228,7 @@ libell.so.0:l_ecc_point_get_y
 libell.so.0:l_ecc_point_inverse
 libell.so.0:l_ecc_point_multiply
 libell.so.0:l_ecc_point_new
+libell.so.0:l_ecc_point_y_isodd
 libell.so.0:l_ecc_points_are_equal
 libell.so.0:l_ecc_scalar_add
 libell.so.0:l_ecc_scalar_free
@@ -331,12 +332,12 @@ libell.so.0:l_hwdb_new
 libell.so.0:l_hwdb_new_default
 libell.so.0:l_hwdb_ref
 libell.so.0:l_hwdb_unref
+libell.so.0:l_icmp6_client_add_event_handler
 libell.so.0:l_icmp6_client_free
 libell.so.0:l_icmp6_client_get_router
 libell.so.0:l_icmp6_client_new
 libell.so.0:l_icmp6_client_set_address
 libell.so.0:l_icmp6_client_set_debug
-libell.so.0:l_icmp6_client_set_event_handler
 libell.so.0:l_icmp6_client_set_nodelay
 libell.so.0:l_icmp6_client_set_route_priority
 libell.so.0:l_icmp6_client_set_rtnl
