@@ -496,6 +496,7 @@ libell.so.0:l_rtnl_route6_extract
 libell.so.0:l_rtnl_route_add
 libell.so.0:l_rtnl_route_delete
 libell.so.0:l_rtnl_route_free
+libell.so.0:l_rtnl_route_get_dst
 libell.so.0:l_rtnl_route_get_family
 libell.so.0:l_rtnl_route_get_gateway
 libell.so.0:l_rtnl_route_get_lifetime
@@ -519,6 +520,7 @@ libell.so.0:l_rtnl_set_mac
 libell.so.0:l_rtnl_set_powered
 libell.so.0:l_secure_memeq
 libell.so.0:l_settings_add_group
+libell.so.0:l_settings_clone
 libell.so.0:l_settings_free
 libell.so.0:l_settings_get_bool
 libell.so.0:l_settings_get_bytes
@@ -541,6 +543,7 @@ libell.so.0:l_settings_has_key
 libell.so.0:l_settings_load_from_data
 libell.so.0:l_settings_load_from_file
 libell.so.0:l_settings_new
+libell.so.0:l_settings_remove_embedded_groups
 libell.so.0:l_settings_remove_group
 libell.so.0:l_settings_remove_key
 libell.so.0:l_settings_set_bool
