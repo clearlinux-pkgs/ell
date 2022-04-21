@@ -155,7 +155,10 @@ libell.so.0:l_dhcp6_client_stop
 libell.so.0:l_dhcp6_lease_get_address
 libell.so.0:l_dhcp6_lease_get_dns
 libell.so.0:l_dhcp6_lease_get_domains
+libell.so.0:l_dhcp6_lease_get_preferred_lifetime
 libell.so.0:l_dhcp6_lease_get_prefix_length
+libell.so.0:l_dhcp6_lease_get_start_time
+libell.so.0:l_dhcp6_lease_get_valid_lifetime
 libell.so.0:l_dhcp_client_add_request_option
 libell.so.0:l_dhcp_client_destroy
 libell.so.0:l_dhcp_client_get_lease
@@ -182,6 +185,7 @@ libell.so.0:l_dhcp_lease_get_netmask_u32
 libell.so.0:l_dhcp_lease_get_prefix_length
 libell.so.0:l_dhcp_lease_get_server_id
 libell.so.0:l_dhcp_lease_get_server_mac
+libell.so.0:l_dhcp_lease_get_start_time
 libell.so.0:l_dhcp_lease_get_t1
 libell.so.0:l_dhcp_lease_get_t2
 libell.so.0:l_dhcp_server_decline
@@ -344,8 +348,10 @@ libell.so.0:l_icmp6_client_set_rtnl
 libell.so.0:l_icmp6_client_start
 libell.so.0:l_icmp6_client_stop
 libell.so.0:l_icmp6_router_get_address
+libell.so.0:l_icmp6_router_get_lifetime
 libell.so.0:l_icmp6_router_get_managed
 libell.so.0:l_icmp6_router_get_other
+libell.so.0:l_icmp6_router_get_start_time
 libell.so.0:l_idle_create
 libell.so.0:l_idle_oneshot
 libell.so.0:l_idle_remove
@@ -405,6 +411,15 @@ libell.so.0:l_net_get_mac_address
 libell.so.0:l_net_get_name
 libell.so.0:l_net_hostname_is_localhost
 libell.so.0:l_net_hostname_is_root
+libell.so.0:l_netconfig_apply_rtnl
+libell.so.0:l_netconfig_destroy
+libell.so.0:l_netconfig_get_addresses
+libell.so.0:l_netconfig_get_dhcp_client
+libell.so.0:l_netconfig_get_routes
+libell.so.0:l_netconfig_new
+libell.so.0:l_netconfig_set_event_handler
+libell.so.0:l_netconfig_start
+libell.so.0:l_netconfig_stop
 libell.so.0:l_netlink_cancel
 libell.so.0:l_netlink_destroy
 libell.so.0:l_netlink_new
@@ -461,6 +476,7 @@ libell.so.0:l_rtnl_address_clone
 libell.so.0:l_rtnl_address_free
 libell.so.0:l_rtnl_address_get_address
 libell.so.0:l_rtnl_address_get_broadcast
+libell.so.0:l_rtnl_address_get_expiry
 libell.so.0:l_rtnl_address_get_family
 libell.so.0:l_rtnl_address_get_label
 libell.so.0:l_rtnl_address_get_preferred_lifetime
@@ -468,6 +484,7 @@ libell.so.0:l_rtnl_address_get_prefix_length
 libell.so.0:l_rtnl_address_get_valid_lifetime
 libell.so.0:l_rtnl_address_new
 libell.so.0:l_rtnl_address_set_broadcast
+libell.so.0:l_rtnl_address_set_expiry
 libell.so.0:l_rtnl_address_set_label
 libell.so.0:l_rtnl_address_set_lifetimes
 libell.so.0:l_rtnl_address_set_noprefixroute
@@ -497,8 +514,11 @@ libell.so.0:l_rtnl_route_add
 libell.so.0:l_rtnl_route_delete
 libell.so.0:l_rtnl_route_free
 libell.so.0:l_rtnl_route_get_dst
+libell.so.0:l_rtnl_route_get_dst_in_addr
+libell.so.0:l_rtnl_route_get_expiry
 libell.so.0:l_rtnl_route_get_family
 libell.so.0:l_rtnl_route_get_gateway
+libell.so.0:l_rtnl_route_get_gateway_in_addr
 libell.so.0:l_rtnl_route_get_lifetime
 libell.so.0:l_rtnl_route_get_mtu
 libell.so.0:l_rtnl_route_get_preference
@@ -508,6 +528,8 @@ libell.so.0:l_rtnl_route_get_protocol
 libell.so.0:l_rtnl_route_get_scope
 libell.so.0:l_rtnl_route_new_gateway
 libell.so.0:l_rtnl_route_new_prefix
+libell.so.0:l_rtnl_route_new_static
+libell.so.0:l_rtnl_route_set_expiry
 libell.so.0:l_rtnl_route_set_lifetime
 libell.so.0:l_rtnl_route_set_mtu
 libell.so.0:l_rtnl_route_set_preference
