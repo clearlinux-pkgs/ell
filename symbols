@@ -417,9 +417,12 @@ libell.so.0:l_netconfig_destroy
 libell.so.0:l_netconfig_get_addresses
 libell.so.0:l_netconfig_get_dhcp6_client
 libell.so.0:l_netconfig_get_dhcp_client
+libell.so.0:l_netconfig_get_dns_list
+libell.so.0:l_netconfig_get_domain_names
 libell.so.0:l_netconfig_get_icmp6_client
 libell.so.0:l_netconfig_get_routes
 libell.so.0:l_netconfig_new
+libell.so.0:l_netconfig_reset_config
 libell.so.0:l_netconfig_set_dns_override
 libell.so.0:l_netconfig_set_domain_names_override
 libell.so.0:l_netconfig_set_event_handler
@@ -499,6 +502,7 @@ libell.so.0:l_rtnl_address_set_label
 libell.so.0:l_rtnl_address_set_lifetimes
 libell.so.0:l_rtnl_address_set_noprefixroute
 libell.so.0:l_rtnl_address_set_scope
+libell.so.0:l_rtnl_get
 libell.so.0:l_rtnl_ifaddr4_add
 libell.so.0:l_rtnl_ifaddr4_delete
 libell.so.0:l_rtnl_ifaddr4_dump
