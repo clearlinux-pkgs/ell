@@ -423,6 +423,7 @@ libell.so.0:l_netconfig_get_icmp6_client
 libell.so.0:l_netconfig_get_routes
 libell.so.0:l_netconfig_new
 libell.so.0:l_netconfig_reset_config
+libell.so.0:l_netconfig_set_acd_enabled
 libell.so.0:l_netconfig_set_dns_override
 libell.so.0:l_netconfig_set_domain_names_override
 libell.so.0:l_netconfig_set_event_handler
@@ -433,6 +434,7 @@ libell.so.0:l_netconfig_set_route_priority
 libell.so.0:l_netconfig_set_static_addr
 libell.so.0:l_netconfig_start
 libell.so.0:l_netconfig_stop
+libell.so.0:l_netconfig_unconfigure
 libell.so.0:l_netlink_cancel
 libell.so.0:l_netlink_destroy
 libell.so.0:l_netlink_new
@@ -690,6 +692,7 @@ libell.so.0:l_uintset_new
 libell.so.0:l_uintset_new_from_range
 libell.so.0:l_uintset_put
 libell.so.0:l_uintset_size
+libell.so.0:l_uintset_subtract
 libell.so.0:l_uintset_take
 libell.so.0:l_utf8_from_ucs2be
 libell.so.0:l_utf8_from_utf16
