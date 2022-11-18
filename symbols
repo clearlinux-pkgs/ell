@@ -19,6 +19,7 @@ libell.so.0:l_cert_get_der_data
 libell.so.0:l_cert_get_dn
 libell.so.0:l_cert_get_pubkey
 libell.so.0:l_cert_get_pubkey_type
+libell.so.0:l_cert_get_valid_times
 libell.so.0:l_cert_load_container_file
 libell.so.0:l_cert_new_from_der
 libell.so.0:l_cert_pkcs5_pbkdf1
@@ -342,6 +343,7 @@ libell.so.0:l_icmp6_client_get_router
 libell.so.0:l_icmp6_client_new
 libell.so.0:l_icmp6_client_set_address
 libell.so.0:l_icmp6_client_set_debug
+libell.so.0:l_icmp6_client_set_link_local_address
 libell.so.0:l_icmp6_client_set_nodelay
 libell.so.0:l_icmp6_client_set_route_priority
 libell.so.0:l_icmp6_client_set_rtnl
@@ -430,6 +432,7 @@ libell.so.0:l_netconfig_set_event_handler
 libell.so.0:l_netconfig_set_family_enabled
 libell.so.0:l_netconfig_set_gateway_override
 libell.so.0:l_netconfig_set_hostname
+libell.so.0:l_netconfig_set_optimistic_dad_enabled
 libell.so.0:l_netconfig_set_route_priority
 libell.so.0:l_netconfig_set_static_addr
 libell.so.0:l_netconfig_start
@@ -493,6 +496,7 @@ libell.so.0:l_rtnl_address_get_address
 libell.so.0:l_rtnl_address_get_broadcast
 libell.so.0:l_rtnl_address_get_expiry
 libell.so.0:l_rtnl_address_get_family
+libell.so.0:l_rtnl_address_get_in_addr
 libell.so.0:l_rtnl_address_get_label
 libell.so.0:l_rtnl_address_get_preferred_lifetime
 libell.so.0:l_rtnl_address_get_prefix_length
@@ -673,6 +677,7 @@ libell.so.0:l_tls_set_cacert
 libell.so.0:l_tls_set_cert_dump_path
 libell.so.0:l_tls_set_debug
 libell.so.0:l_tls_set_domain_mask
+libell.so.0:l_tls_set_session_cache
 libell.so.0:l_tls_set_version_range
 libell.so.0:l_tls_start
 libell.so.0:l_tls_write
