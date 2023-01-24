@@ -668,6 +668,7 @@ libell.so.0:l_timeout_set_callback
 libell.so.0:l_tls_alert_to_str
 libell.so.0:l_tls_close
 libell.so.0:l_tls_free
+libell.so.0:l_tls_get_session_resumed
 libell.so.0:l_tls_handle_rx
 libell.so.0:l_tls_new
 libell.so.0:l_tls_prf_get_bytes
@@ -715,6 +716,8 @@ libell.so.0:l_util_hexdump_two
 libell.so.0:l_util_hexdumpv
 libell.so.0:l_util_hexstring
 libell.so.0:l_util_hexstring_upper
+libell.so.0:l_util_hexstringv
+libell.so.0:l_util_hexstringv_upper
 libell.so.0:l_uuid_from_string
 libell.so.0:l_uuid_get_version
 libell.so.0:l_uuid_is_valid
