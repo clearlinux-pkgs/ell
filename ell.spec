@@ -5,7 +5,7 @@
 #
 Name     : ell
 Version  : 0.57
-Release  : 45
+Release  : 46
 URL      : https://mirrors.kernel.org/pub/linux/libs/ell/ell-0.57.tar.xz
 Source0  : https://mirrors.kernel.org/pub/linux/libs/ell/ell-0.57.tar.xz
 Summary  : Embedded Linux library
@@ -65,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684970802
+export SOURCE_DATE_EPOCH=1685499446
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -88,7 +88,7 @@ export LDFLAGS="$LDFLAGS -m64 -march=x86-64-v3"
 make  %{?_smp_mflags}
 popd
 %install
-export SOURCE_DATE_EPOCH=1684970802
+export SOURCE_DATE_EPOCH=1685499446
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/ell
 cp %{_builddir}/ell-%{version}/COPYING %{buildroot}/usr/share/package-licenses/ell/32c7c5556c56cdbb2d507e27d28d081595a35a9b || :
@@ -103,7 +103,6 @@ popd
 
 %files dev
 %defattr(-,root,root,-)
-/V3/usr/lib64/libell.so
 /usr/include/ell/acd.h
 /usr/include/ell/base64.h
 /usr/include/ell/cert.h
@@ -157,7 +156,6 @@ popd
 
 %files lib
 %defattr(-,root,root,-)
-/V3/usr/lib64/libell.so.0
 /V3/usr/lib64/libell.so.0.0.2
 /usr/lib64/libell.so.0
 /usr/lib64/libell.so.0.0.2
