@@ -4,10 +4,10 @@
 # Using build pattern: configure
 #
 Name     : ell
-Version  : 0.57
-Release  : 46
-URL      : https://mirrors.kernel.org/pub/linux/libs/ell/ell-0.57.tar.xz
-Source0  : https://mirrors.kernel.org/pub/linux/libs/ell/ell-0.57.tar.xz
+Version  : 0.58
+Release  : 47
+URL      : https://mirrors.kernel.org/pub/linux/libs/ell/ell-0.58.tar.xz
+Source0  : https://mirrors.kernel.org/pub/linux/libs/ell/ell-0.58.tar.xz
 Summary  : Embedded Linux library
 Group    : Development/Tools
 License  : LGPL-2.1
@@ -54,10 +54,10 @@ license components for the ell package.
 
 
 %prep
-%setup -q -n ell-0.57
-cd %{_builddir}/ell-0.57
+%setup -q -n ell-0.58
+cd %{_builddir}/ell-0.58
 pushd ..
-cp -a ell-0.57 buildavx2
+cp -a ell-0.58 buildavx2
 popd
 
 %build
@@ -65,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1685499446
+export SOURCE_DATE_EPOCH=1692890512
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -88,7 +88,7 @@ export LDFLAGS="$LDFLAGS -m64 -march=x86-64-v3"
 make  %{?_smp_mflags}
 popd
 %install
-export SOURCE_DATE_EPOCH=1685499446
+export SOURCE_DATE_EPOCH=1692890512
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/ell
 cp %{_builddir}/ell-%{version}/COPYING %{buildroot}/usr/share/package-licenses/ell/32c7c5556c56cdbb2d507e27d28d081595a35a9b || :
@@ -142,6 +142,7 @@ popd
 /usr/include/ell/signal.h
 /usr/include/ell/string.h
 /usr/include/ell/strv.h
+/usr/include/ell/sysctl.h
 /usr/include/ell/test.h
 /usr/include/ell/tester.h
 /usr/include/ell/time.h
