@@ -560,6 +560,10 @@ libell.so.0:l_rtnl_route_set_scope
 libell.so.0:l_rtnl_set_linkmode_and_operstate
 libell.so.0:l_rtnl_set_mac
 libell.so.0:l_rtnl_set_powered
+libell.so.0:l_safe_atou32
+libell.so.0:l_safe_atox16
+libell.so.0:l_safe_atox32
+libell.so.0:l_safe_atox8
 libell.so.0:l_secure_memeq
 libell.so.0:l_settings_add_group
 libell.so.0:l_settings_clone
@@ -635,6 +639,8 @@ libell.so.0:l_strv_eq
 libell.so.0:l_strv_free
 libell.so.0:l_strv_length
 libell.so.0:l_strv_new
+libell.so.0:l_sysctl_get_u32
+libell.so.0:l_sysctl_set_u32
 libell.so.0:l_test_add
 libell.so.0:l_test_init
 libell.so.0:l_test_run
