@@ -231,7 +231,9 @@ libell.so.0:l_ecc_point_get_data
 libell.so.0:l_ecc_point_get_x
 libell.so.0:l_ecc_point_get_y
 libell.so.0:l_ecc_point_inverse
+libell.so.0:l_ecc_point_is_infinity
 libell.so.0:l_ecc_point_multiply
+libell.so.0:l_ecc_point_multiply_g
 libell.so.0:l_ecc_point_new
 libell.so.0:l_ecc_point_y_isodd
 libell.so.0:l_ecc_points_are_equal
@@ -241,6 +243,7 @@ libell.so.0:l_ecc_scalar_get_data
 libell.so.0:l_ecc_scalar_legendre
 libell.so.0:l_ecc_scalar_multiply
 libell.so.0:l_ecc_scalar_new
+libell.so.0:l_ecc_scalar_new_modn
 libell.so.0:l_ecc_scalar_new_modp
 libell.so.0:l_ecc_scalar_new_random
 libell.so.0:l_ecc_scalar_new_reduced_1_to_n
