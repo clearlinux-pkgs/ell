@@ -12,6 +12,8 @@ libell.so.0:l_aead_cipher_encrypt
 libell.so.0:l_aead_cipher_free
 libell.so.0:l_aead_cipher_is_supported
 libell.so.0:l_aead_cipher_new
+libell.so.0:l_ascii_strdown
+libell.so.0:l_ascii_strup
 libell.so.0:l_base64_decode
 libell.so.0:l_base64_encode
 libell.so.0:l_cert_free
@@ -169,6 +171,7 @@ libell.so.0:l_dhcp_client_set_debug
 libell.so.0:l_dhcp_client_set_event_handler
 libell.so.0:l_dhcp_client_set_hostname
 libell.so.0:l_dhcp_client_set_interface_name
+libell.so.0:l_dhcp_client_set_max_attempts
 libell.so.0:l_dhcp_client_set_rtnl
 libell.so.0:l_dhcp_client_start
 libell.so.0:l_dhcp_client_stop
@@ -210,6 +213,7 @@ libell.so.0:l_dhcp_server_set_lease_time
 libell.so.0:l_dhcp_server_set_netmask
 libell.so.0:l_dhcp_server_start
 libell.so.0:l_dhcp_server_stop
+libell.so.0:l_dir_create
 libell.so.0:l_dir_watch_destroy
 libell.so.0:l_dir_watch_new
 libell.so.0:l_ecc_curve_from_ike_group
@@ -254,6 +258,7 @@ libell.so.0:l_ecc_supported_tls_groups
 libell.so.0:l_ecdh_generate_key_pair
 libell.so.0:l_ecdh_generate_shared_secret
 libell.so.0:l_file_get_contents
+libell.so.0:l_file_set_contents
 libell.so.0:l_free
 libell.so.0:l_genl_add_family_watch
 libell.so.0:l_genl_add_unicast_watch
