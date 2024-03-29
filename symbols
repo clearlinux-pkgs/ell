@@ -242,6 +242,7 @@ libell.so.0:l_ecc_point_new
 libell.so.0:l_ecc_point_y_isodd
 libell.so.0:l_ecc_points_are_equal
 libell.so.0:l_ecc_scalar_add
+libell.so.0:l_ecc_scalar_clone
 libell.so.0:l_ecc_scalar_free
 libell.so.0:l_ecc_scalar_get_data
 libell.so.0:l_ecc_scalar_legendre
