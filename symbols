@@ -16,6 +16,7 @@ libell.so.0:l_ascii_strdown
 libell.so.0:l_ascii_strup
 libell.so.0:l_base64_decode
 libell.so.0:l_base64_encode
+libell.so.0:l_basename
 libell.so.0:l_cert_free
 libell.so.0:l_cert_get_der_data
 libell.so.0:l_cert_get_dn
@@ -454,6 +455,12 @@ libell.so.0:l_netlink_register
 libell.so.0:l_netlink_send
 libell.so.0:l_netlink_set_debug
 libell.so.0:l_netlink_unregister
+libell.so.0:l_notifylist_add
+libell.so.0:l_notifylist_free
+libell.so.0:l_notifylist_new
+libell.so.0:l_notifylist_notify
+libell.so.0:l_notifylist_notify_matches
+libell.so.0:l_notifylist_remove
 libell.so.0:l_parse_args
 libell.so.0:l_path_find
 libell.so.0:l_path_get_mtime
