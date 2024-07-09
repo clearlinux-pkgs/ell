@@ -655,7 +655,9 @@ libell.so.0:l_strv_eq
 libell.so.0:l_strv_free
 libell.so.0:l_strv_length
 libell.so.0:l_strv_new
+libell.so.0:l_sysctl_get_char
 libell.so.0:l_sysctl_get_u32
+libell.so.0:l_sysctl_set_char
 libell.so.0:l_sysctl_set_u32
 libell.so.0:l_test_add
 libell.so.0:l_test_init
