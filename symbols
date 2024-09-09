@@ -267,8 +267,6 @@ libell.so.0:l_free@@ELL_0.10
 libell.so.0:l_genl_add_family_watch@@ELL_0.10
 libell.so.0:l_genl_add_unicast_watch@@ELL_0.10
 libell.so.0:l_genl_attr_init@@ELL_0.10
-libell.so.0:l_genl_attr_next@@ELL_0.10
-libell.so.0:l_genl_attr_recurse@@ELL_0.10
 libell.so.0:l_genl_discover_families@@ELL_0.10
 libell.so.0:l_genl_family_cancel@@ELL_0.10
 libell.so.0:l_genl_family_dump@@ELL_0.10
@@ -450,6 +448,9 @@ libell.so.0:l_netconfig_set_static_addr@@ELL_0.10
 libell.so.0:l_netconfig_start@@ELL_0.10
 libell.so.0:l_netconfig_stop@@ELL_0.10
 libell.so.0:l_netconfig_unconfigure@@ELL_0.10
+libell.so.0:l_netlink_attr_init@@ELL_0.10
+libell.so.0:l_netlink_attr_next@@ELL_0.10
+libell.so.0:l_netlink_attr_recurse@@ELL_0.10
 libell.so.0:l_netlink_cancel@@ELL_0.10
 libell.so.0:l_netlink_destroy@@ELL_0.10
 libell.so.0:l_netlink_message_add_header@@ELL_0.10
@@ -463,6 +464,7 @@ libell.so.0:l_netlink_message_ref@@ELL_0.10
 libell.so.0:l_netlink_message_unref@@ELL_0.10
 libell.so.0:l_netlink_new@@ELL_0.10
 libell.so.0:l_netlink_register@@ELL_0.10
+libell.so.0:l_netlink_request_sent@@ELL_0.10
 libell.so.0:l_netlink_send@@ELL_0.10
 libell.so.0:l_netlink_set_debug@@ELL_0.10
 libell.so.0:l_netlink_unregister@@ELL_0.10
@@ -547,6 +549,7 @@ libell.so.0:l_rtnl_ifaddr6_extract@@ELL_0.10
 libell.so.0:l_rtnl_ifaddr_add@@ELL_0.10
 libell.so.0:l_rtnl_ifaddr_delete@@ELL_0.10
 libell.so.0:l_rtnl_ifaddr_extract@@ELL_0.10
+libell.so.0:l_rtnl_link_set_mtu@@ELL_0.10
 libell.so.0:l_rtnl_neighbor_get_hwaddr@@ELL_0.10
 libell.so.0:l_rtnl_neighbor_set_hwaddr@@ELL_0.10
 libell.so.0:l_rtnl_route4_add_connected@@ELL_0.10
@@ -698,6 +701,7 @@ libell.so.0:l_timeout_create@@ELL_0.10
 libell.so.0:l_timeout_create_ms@@ELL_0.10
 libell.so.0:l_timeout_modify@@ELL_0.10
 libell.so.0:l_timeout_modify_ms@@ELL_0.10
+libell.so.0:l_timeout_remaining@@ELL_0.10
 libell.so.0:l_timeout_remove@@ELL_0.10
 libell.so.0:l_timeout_set_callback@@ELL_0.10
 libell.so.0:l_tls_alert_to_str@@ELL_0.10

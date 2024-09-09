@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : ell
-Version  : 0.68
-Release  : 58
-URL      : https://mirrors.kernel.org/pub/linux/libs/ell/ell-0.68.tar.gz
-Source0  : https://mirrors.kernel.org/pub/linux/libs/ell/ell-0.68.tar.gz
+Version  : 0.69
+Release  : 59
+URL      : https://mirrors.kernel.org/pub/linux/libs/ell/ell-0.69.tar.gz
+Source0  : https://mirrors.kernel.org/pub/linux/libs/ell/ell-0.69.tar.gz
 Summary  : Embedded Linux library
 Group    : Development/Tools
 License  : LGPL-2.1
@@ -57,10 +57,10 @@ license components for the ell package.
 
 
 %prep
-%setup -q -n ell-0.68
-cd %{_builddir}/ell-0.68
+%setup -q -n ell-0.69
+cd %{_builddir}/ell-0.69
 pushd ..
-cp -a ell-0.68 buildavx2
+cp -a ell-0.69 buildavx2
 popd
 
 %build
@@ -68,7 +68,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1724351922
+export SOURCE_DATE_EPOCH=1725891709
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -113,7 +113,7 @@ FFLAGS="$CLEAR_INTERMEDIATE_FFLAGS"
 FCFLAGS="$CLEAR_INTERMEDIATE_FCFLAGS"
 ASFLAGS="$CLEAR_INTERMEDIATE_ASFLAGS"
 LDFLAGS="$CLEAR_INTERMEDIATE_LDFLAGS"
-export SOURCE_DATE_EPOCH=1724351922
+export SOURCE_DATE_EPOCH=1725891709
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/ell
 cp %{_builddir}/ell-%{version}/COPYING %{buildroot}/usr/share/package-licenses/ell/32c7c5556c56cdbb2d507e27d28d081595a35a9b || :
