@@ -678,6 +678,7 @@ libell.so.0:l_test_add_data_func@@ELL_0.10
 libell.so.0:l_test_add_func@@ELL_0.10
 libell.so.0:l_test_init@@ELL_0.10
 libell.so.0:l_test_run@@ELL_0.10
+libell.so.0:l_test_set_default_flags@@ELL_0.10
 libell.so.0:l_tester_add@@ELL_0.10
 libell.so.0:l_tester_add_full@@ELL_0.10
 libell.so.0:l_tester_destroy@@ELL_0.10
