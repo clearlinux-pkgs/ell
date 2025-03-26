@@ -760,6 +760,7 @@ libell.so.0:l_util_hexstring@@ELL_0.10
 libell.so.0:l_util_hexstring_upper@@ELL_0.10
 libell.so.0:l_util_hexstringv@@ELL_0.10
 libell.so.0:l_util_hexstringv_upper@@ELL_0.10
+libell.so.0:l_util_oidstring@@ELL_0.10
 libell.so.0:l_util_pagesize@@ELL_0.10
 libell.so.0:l_uuid_from_string@@ELL_0.10
 libell.so.0:l_uuid_get_version@@ELL_0.10
