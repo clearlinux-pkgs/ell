@@ -675,7 +675,9 @@ libell.so.0:l_sysctl_set_char@@ELL_0.10
 libell.so.0:l_sysctl_set_u32@@ELL_0.10
 libell.so.0:l_test_add@@ELL_0.10
 libell.so.0:l_test_add_data_func@@ELL_0.10
+libell.so.0:l_test_add_data_func_precheck@@ELL_0.10
 libell.so.0:l_test_add_func@@ELL_0.10
+libell.so.0:l_test_add_func_precheck@@ELL_0.10
 libell.so.0:l_test_init@@ELL_0.10
 libell.so.0:l_test_run@@ELL_0.10
 libell.so.0:l_test_set_default_flags@@ELL_0.10
